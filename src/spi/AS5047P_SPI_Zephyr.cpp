@@ -18,7 +18,7 @@
 #include "./../types/AS5047P_Types.h"
 
 // zephyr libraries
-#include <kernel.h>
+#include <zephyr/kernel.h>
 
 // log
 LOG_MODULE_REGISTER(as5047p_lib_spi, LOG_LEVEL_WRN);

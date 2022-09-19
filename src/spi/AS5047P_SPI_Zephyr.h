@@ -4,9 +4,9 @@
  * @brief This headerfile contains the Zephyr SPI bus handler for the AS5047P Library.
  * @version 3.0.0
  * @date 2021-10-29
- * 
+ *
  * @copyright Copyright (c) 2021 Jonas Merkle. This project is released under the GPL-3.0 License License.
- * 
+ *
  */
 
 #ifndef AS5047P_SPI_Zephyr_h
@@ -22,9 +22,9 @@
 // disable in non Zephyr op mode
 #if defined(AS5047P_OP_MODE_Zephyr)
 // zephyr libraties
-#include <logging/log.h>
-#include <devicetree.h>
-#include <drivers/spi.h>
+#include <zephyr/logging/log.h>
+#include <zephyr/devicetree.h>
+#include <zephyr/drivers/spi.h>
 
 /**
  * @namespace AS5047P_ComBackend
