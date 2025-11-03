@@ -38,7 +38,7 @@ namespace AS5047P_ComBackend {
 
         LOG_INF("Initializing AS5047P SPI");
 
-        if (!spi_is_ready(_spiDevSpec)) {
+        if (!spi_is_ready_dt(_spiDevSpec)) {
             LOG_ERR("AS5047P SPI not ready!");
             return;
         }
